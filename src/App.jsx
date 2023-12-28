@@ -1,6 +1,8 @@
 import React from 'react';
 import logoLarge  from './logoLarge.jpg';
 import { Wrapper } from './Wrapper';
+import { CardListHome } from './home-components';
+import { CardData } from './data';
 import './style.css';
 
 
@@ -25,6 +27,7 @@ export default function App() {
                     <img style={{height: '50%', margin: '2%'}} src={logoLarge} />
                 </div>
                 <Wrapper />
+                <CardListHome data={CardData} />
             </div>
         </>
     );

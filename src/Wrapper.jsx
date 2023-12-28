@@ -14,7 +14,7 @@ export function Wrapper() {
                 height: '600px'
             }}
         >
-            <div sclassName='col content-center items-center w-100'>
+            <div className='col content-center items-center w-100'>
                 <div className='wrapper-content'>
                     <div className='wrapper-inner'>
                         <h1>Lorem ipsum dolor sit</h1>
