@@ -16,7 +16,7 @@ export default function App() {
                         <h2>PurRoots</h2>
                     </div>
                     <nav>
-                        <a className='nav-link' href='/'>Home</a>
+                        <a className='nav-link' href='https://mattc-27.github.io/'>Home</a>
 
                     </nav>
                 </div>
