@@ -1,8 +1,8 @@
 import React from 'react';
 import logoLarge  from './logoLarge.jpg';
 import { Wrapper } from './Wrapper';
-import { CardListHome } from './home-components';
-import { CardData } from './data';
+import { CardListHome, InfoHorizontal, InfoVertical } from './home-components';
+import { CardData, Products } from './data';
 import './style.css';
 
 
@@ -28,6 +28,8 @@ export default function App() {
                 </div>
                 <Wrapper />
                 <CardListHome data={CardData} />
+                <InfoHorizontal />
+                <InfoVertical products={Products} />
             </div>
         </>
     );
