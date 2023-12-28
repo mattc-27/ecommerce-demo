@@ -1,6 +1,6 @@
 import React from 'react';
 import logoLarge  from './logoLarge.jpg';
-
+import { Wrapper } from './Wrapper';
 import './style.css';
 
 
